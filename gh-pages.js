@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
 	'public', // path to public directory
 	{
-		branch: 'master',
+		branch: 'gh-pages',
 		repo: 'https://github.com/vanhieu95/sevlte-feedback-app.git', // Update to point to your repository
 		user: {
 			name: 'Hieu Nguyen', // update to use your name
